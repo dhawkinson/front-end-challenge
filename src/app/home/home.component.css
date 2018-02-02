@@ -1,0 +1,16 @@
+
+.homePage {
+    width: 100%;
+    height: 700px;
+    margin-top: -10;
+    background-image: url("../../assets/images/583e03172e820.image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+.homeMessage {
+    position:relative;
+    top:5em;
+    text-align:center;
+    font-weight: bold;
+}
