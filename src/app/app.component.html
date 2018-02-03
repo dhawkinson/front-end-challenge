@@ -1,0 +1,11 @@
+<app-nav (pageSelected)="onNavigate($event)"></app-nav>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <app-home *ngIf="loadedPage === 'home'"></app-home>
+            <app-qpl *ngIf="loadedPage !== 'home'"></app-qpl>
+        </div>
+    </div>
+</div>
+
+  

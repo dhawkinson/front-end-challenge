@@ -1,0 +1,12 @@
+.dropup {
+    padding-top: 1.5em;
+    padding-left: 2.5em;
+}
+
+.dropdown-menu {
+    list-style: none;
+}
+
+.items-per-page {
+    margin-top: -2em;
+}
