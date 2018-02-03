@@ -3,10 +3,14 @@
     padding-left: 2.5em;
 }
 
+.items-per-page {
+    margin-left: 5em;
+}
+
 .dropdown-menu {
     list-style: none;
 }
 
-.items-per-page {
+.showing-items {
     margin-top: -2em;
 }
