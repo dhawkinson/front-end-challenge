@@ -9,7 +9,6 @@ import { HomeComponent } from './home/home.component';
 import { QplComponent } from './qpl/qpl.component';
 import { FootComponent } from './qpl/foot/foot.component';
 
-
 @NgModule({
     declarations: [
         AppComponent,
