@@ -18,18 +18,21 @@
                     </a>
                 </li>
             </ul>
-            <div class="dropup">
-                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Items Per Page 
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li><a href="#">5</a></li>
-                    <li><a href="#">10</a></li>
-                    <li><a href="#">15</a></li>
-                    <li><a href="#">20</a></li>
-                </ul>
+            <div class=dropdown-parent>
+                <div class="dropup" appDropdown>
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Items Per Page 
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">10</a></li>
+                            <li><a href="#">15</a></li>
+                            <li><a href="#">20</a></li>
+                        </ul>
+                </div>
             </div>
+            
             <div class="nav navbar-right">
                 <div class="navbar-header">
                     <a class="navbar-brand showing-items">Showing Items 1 - 20</a>

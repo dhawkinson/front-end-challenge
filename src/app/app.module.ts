@@ -8,6 +8,7 @@ import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { QplComponent } from './qpl/qpl.component';
 import { FootComponent } from './qpl/foot/foot.component';
+import { DropdownDirective } from './qpl/foot/dropdown.directive';
 
 @NgModule({
     declarations: [
@@ -15,7 +16,8 @@ import { FootComponent } from './qpl/foot/foot.component';
         NavComponent,
         HomeComponent,
         QplComponent,
-        FootComponent
+        FootComponent,
+        DropdownDirective
     ],
     imports: [
         BrowserModule

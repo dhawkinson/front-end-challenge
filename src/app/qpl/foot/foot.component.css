@@ -7,6 +7,10 @@
     margin-left: 5em;
 }
 
+.dropdown-parent {
+    padding-left: 15em;
+}
+
 .dropdown-menu {
     list-style: none;
 }
